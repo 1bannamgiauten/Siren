@@ -93,7 +93,7 @@ public final class Siren: NSObject {
 
     internal var updaterWindow: UIWindow?
     fileprivate var appID: Int?
-    fileprivate var lastVersionCheckPerformedOnDate: Date?
+    public var lastVersionCheckPerformedOnDate: Date?
     fileprivate lazy var alertViewIsVisible: Bool = false
 
     /// The App's Singleton
